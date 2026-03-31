@@ -1,0 +1,20 @@
+# Data & Math
+pandas
+numpy
+scikit-learn
+xgboost
+lightgbm  
+statsmodels
+wbgapi 
+
+# MLOps, Tracking & Monitoring
+dvc[s3]
+clearml
+evidently
+fastapi
+uvicorn
+streamlit
+
+# Development & Utils
+python-dotenv
+pyyaml
