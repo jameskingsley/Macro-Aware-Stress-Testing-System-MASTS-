@@ -1,0 +1,19 @@
+# Environments
+venv/
+.env
+
+# Python artifacts
+__pycache__/
+*.pyc
+MASTS.egg-info/
+dist/
+build/
+
+# Data & Models
+data/raw/*.csv
+data/processed/*.csv
+models/*.pkl
+artifacts/
+
+# Logs
+logs/

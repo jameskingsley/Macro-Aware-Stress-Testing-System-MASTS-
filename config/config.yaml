@@ -1,0 +1,24 @@
+external_data:
+  world_bank_indicators:
+    inflation_cpi: "FP.CPI.TOTL.ZG"
+    gdp_growth: "NY.GDP.MKTP.KD.ZG"
+  country_code: "NGA"
+
+model_params:
+  xgboost:
+    max_depth: 6
+    learning_rate: 0.01
+    n_estimators: 1000
+  lightgbm:
+    num_leaves: 31
+    learning_rate: 0.05
+    n_estimators: 1000
+    boosting_type: "gbdt"
+  sarimax:
+    order: [1, 1, 1]
+    seasonal_order: [1, 1, 1, 12]
+
+artifacts:
+  raw_data_path: "data/raw"
+  processed_data_path: "data/processed"
+  model_dir: "models"
